@@ -35,3 +35,10 @@ logs/
 
 temp/
   Temporary audio files for STT processing. Auto-created, safe to delete.
+
+windows-startup/
+  Windows GPU service launchers. start-all.bat master launcher, individual scripts,
+  firewall setup, Chatterbox TTS server, pip requirements, status checker.
+
+voices/
+  Voice WAV files for Chatterbox TTS. Drop speaker WAVs here for voice cloning.
