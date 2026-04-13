@@ -8,6 +8,16 @@ finn-audio-sidecar.py
   Logs to: logs/sidecar_YYYY-MM-DD.log
   Binds: 0.0.0.0 on config port (default 8082)
 
+advertise.py
+  mDNS service advertiser. Registers sidecar and chatterbox on LAN via Bonjour/zeroconf.
+  MacBook auto-discovers Windows services. Monitors IP changes every 30s.
+  Imports: zeroconf, loguru
+  Logs to: logs/advertise_YYYY-MM-DD.log
+
+debug-diagnostics.py
+  Self-check diagnostic tool. Checks GPU, deps, services, firewall, network, mDNS, disk.
+  Reports PASS/FAIL/WARN with fix suggestions. Run anytime to troubleshoot.
+
 finn-voice-relay.js
   Grok xAI Realtime voice WebSocket relay
   Imports: ws, express, fs, path

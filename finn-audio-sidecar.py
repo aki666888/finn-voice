@@ -213,8 +213,19 @@ class TTSRequest(BaseModel):
 @app.get("/health")
 async def health():
     logger.debug("Health check requested")
+    # Check chatterbox reachability (quick, non-blocking)
+    chatterbox_reachable = False
+    try:
+        async with httpx.AsyncClient(timeout=2.0) as client:
+            resp = await client.get(f"{CHATTERBOX_URL}/health")
+            chatterbox_reachable = resp.status_code == 200
+    except Exception:
+        pass
     return {
         "status": "ok",
+        "whisper_loaded": whisper_model is not None,
+        "vad_ready": True,
+        "chatterbox_reachable": chatterbox_reachable,
         "project": "finn",
         "device": CUDA_DEVICE,
         "gpu_models": {
