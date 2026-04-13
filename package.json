@@ -1,0 +1,14 @@
+{
+  "name": "finn-voice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Voice pipelines for Finn - Grok xAI Realtime + Local Whisper/Chatterbox GPU sidecar",
+  "scripts": {
+    "grok": "node finn-voice-relay.js",
+    "sidecar": "python finn-audio-sidecar.py"
+  },
+  "dependencies": {
+    "ws": "^8.20.0",
+    "express": "^4.21.0"
+  }
+}

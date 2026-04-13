@@ -1,0 +1,22 @@
+{
+  "xai_api_key": "",
+  "openrouter_api_key": "",
+  "tts_voice": "af_bella",
+  "stt_model": "faster-whisper",
+  "tts_model": "chatterbox",
+  "stt_streaming": false,
+  "vad_sensitivity": 0.5,
+  "vad_silence_ms": 1500,
+  "wake_word_start": "hey_jarvis",
+  "wake_word_halt_acoustic": "",
+  "audio_sidecar_port": 8082,
+  "grok_relay_port": 8081,
+  "finn_router_port": 3469,
+  "chat_api_url": "http://localhost:3469",
+  "chatterbox_url": "http://localhost:8004",
+  "cuda_device": "cuda:0",
+  "speaker_wav": "Elena.wav",
+  "log_level": "DEBUG",
+  "log_dir": "logs",
+  "log_retention_days": 7
+}
