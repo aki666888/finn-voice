@@ -1,0 +1,7 @@
+2026-04-13 18:17:48.810 | INFO     | __main__:<module>:37 - Loading Chatterbox TTS on cuda:1...
+2026-04-13 18:18:21.675 | ERROR    | __main__:<module>:44 - Failed to load Chatterbox: Cannot send a request, as the client has been closed.
+2026-04-13 18:18:21.675 | WARNING  | __main__:<module>:45 - TTS will be unavailable - install chatterbox-tts package
+2026-04-13 18:18:21.677 | INFO     | __main__:<module>:142 - Starting Chatterbox TTS server on 0.0.0.0:8004
+2026-04-13 18:19:15.292 | INFO     | __main__:<module>:37 - Loading Chatterbox TTS on cuda:1...
+2026-04-13 18:19:26.244 | INFO     | __main__:<module>:42 - Chatterbox loaded on cuda:1
+2026-04-13 18:19:26.245 | INFO     | __main__:<module>:142 - Starting Chatterbox TTS server on 0.0.0.0:8004

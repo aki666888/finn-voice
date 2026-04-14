@@ -1,0 +1,25 @@
+2026-04-13 18:19:14.301 | INFO     | __main__:<module>:187 - ==================================================
+2026-04-13 18:19:14.301 | INFO     | __main__:<module>:188 - Finn Voice - mDNS Service Advertiser
+2026-04-13 18:19:14.301 | INFO     | __main__:<module>:189 - Sidecar: port 8082
+2026-04-13 18:19:14.302 | INFO     | __main__:<module>:190 - Chatterbox: port 8004
+2026-04-13 18:19:14.302 | INFO     | __main__:<module>:191 - ==================================================
+2026-04-13 18:19:14.302 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:19:14.302 | INFO     | __main__:register:90 - Registering mDNS services on 192.168.1.177
+2026-04-13 18:19:16.007 | INFO     | __main__:register:100 - Registered: _finn-sidecar._tcp on 192.168.1.177:8082
+2026-04-13 18:19:17.670 | INFO     | __main__:register:108 - Registered: _finn-chatterbox._tcp on 192.168.1.177:8004
+2026-04-13 18:19:17.671 | INFO     | __main__:start:144 - mDNS advertiser started (monitoring IP changes every 30s)
+2026-04-13 18:19:17.671 | INFO     | __main__:<module>:196 - Press Ctrl+C to stop...
+2026-04-13 18:19:47.671 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:20:17.672 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:20:47.672 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:21:17.673 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:21:47.674 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:22:17.675 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:22:47.675 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:23:17.676 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:23:47.677 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:24:17.677 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:24:47.678 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:25:17.679 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:25:47.680 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177
+2026-04-13 18:26:17.680 | DEBUG    | __main__:get_lan_ip:41 - Detected LAN IP: 192.168.1.177

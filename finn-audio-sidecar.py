@@ -106,8 +106,7 @@ if not torch.cuda.is_available():
     raise RuntimeError("CUDA NOT AVAILABLE - GPU REQUIRED, NO CPU FALLBACK")
 
 logger.info("CUDA devices available: {}", torch.cuda.device_count())
-for i in range(torch.cuda.device_count()):
-    logger.info("  GPU {}: {} ({:.0f}MB)", i, torch.cuda.get_device_name(i), torch.cuda.get_device_properties(i).total_mem / 1024 / 1024)
+logger.info("Using GPU {} for STT", CUDA_DEVICE)
 
 # ============================================
 # LOAD MODELS AT STARTUP

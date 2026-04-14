@@ -1,7 +1,8 @@
 windows-startup - Folder Index
 
 start-all.bat
-  Master launcher. Starts Chatterbox, waits 15s, starts sidecar, waits 20s, checks status.
+  Master launcher. Starts 4 services: Chatterbox -> Sidecar -> mDNS Advertiser -> Status Check.
+  Kills all 3 background services (chatterbox, sidecar, advertiser) on exit.
   Keeps window open. Press any key to stop all services.
 
 start-chatterbox.bat
